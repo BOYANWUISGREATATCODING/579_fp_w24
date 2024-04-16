@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import './App.css';
+import '../App.css';
 import { Dropdown, Button, Form } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import apiList from './components/constants';
-import logo from './logo.svg';
-import Grading from './Grading'; // Reusing Grading component for both grades
+import apiList from '../components/constants';
+import logo from '../logo.svg';
+import Grading from '../components/Grading'; // Reusing Grading component for both grades
 
 const SearchEngine = () => {
   const [pic, setPic] = useState(<img src={logo} className="App-logo" alt="logo" />);

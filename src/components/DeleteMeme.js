@@ -4,18 +4,18 @@ import { Card, Button } from 'react-bootstrap';
 const DeleteMeme = () => {
   const [images, setImages] = useState([]);
 
-  useEffect(() => {
+useEffect(() => {
     fetchImages();
   }, []);
 
-  const fetchImages = () => {
-    const savedImages = Object.keys(localStorage)
-      .filter(key => key.startsWith('savedImage_'))
-      .map(key => ({ id: key, ...JSON.parse(localStorage.getItem(key)) }));
+const fetchImages = () => {
+  const savedImages = Object.keys(localStorage)
+    .filter(key => key.startsWith('savedImage_'))
+    .map(key => ({ id: key, ...JSON.parse(localStorage.getItem(key)) }));
     setImages(savedImages);
   };
 
-  const deleteImage = (id) => {
+const deleteImage = (id) => {
     localStorage.removeItem(id);
     fetchImages(); // Refresh the images after deletion
   };

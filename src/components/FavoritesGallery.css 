@@ -1,0 +1,17 @@
+.FavoritesGallery-container {
+  padding: 20px;
+}
+
+.FavoritesGallery-item {
+  margin-bottom: 20px;
+}
+
+.FavoritesGallery-image {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.FavoritesGallery-item:hover {
+  background-color: #fafafa;
+}
+

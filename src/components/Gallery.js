@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Card, Dropdown } from 'react-bootstrap';
+import './Gallery.css';
 
 const Gallery = ({ activePage }) => {
   const [images, setImages] = useState([]);

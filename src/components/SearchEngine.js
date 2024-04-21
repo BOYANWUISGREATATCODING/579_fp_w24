@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './SearchEngine.css';
 import '../App.css';
 import { Dropdown, Button, Form } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';

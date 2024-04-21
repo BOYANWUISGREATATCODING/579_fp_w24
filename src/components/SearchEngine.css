@@ -1,0 +1,31 @@
+.SearchEngine-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .SearchEngine-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .SearchEngine-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .SearchEngine-button:hover {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: white;
+  }
+  
